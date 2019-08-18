@@ -41,7 +41,7 @@
 				<div class="col-md-10 mt-lg-5 text-center">
 
 					<h1>CSI DDU Student Branch</h1>
-					<p class="mb-5 desc"  data-aos="fade-up"> We envisions a dream where everyone is provided a opportunity to expand their horizons of knowledge. </p>
+					<p class="mb-5 desc"  data-aos="fade-up"> We envision a dream where everyone is provided an opportunity to expand their horizons of knowledge. </p>
 					<a href="contact.php" target="_blank" class="btn  btn-primary mr-2 mb-2">Get In Touch</a>
 
 				</div>
@@ -67,7 +67,7 @@
 			<div class="row mt-5 mb-5 pt-5 pb-3 justify-content-center">
 		  		<div class="col-md-10 text-center">
 			  		<h2 class="section-title mb-4" data-aos="fade-up" data-aos-delay="">What We Are?</h2>
-					<p class="lead mr-2 ml-2" data-aos="fade-up" data-aos-delay="100">We are a student chapter of computer society of India, which is the frist and largest body of computer professionals. We bridge the gap between students and industry. we fill the gap by sharing knowledge through seminars, workshops, and competiitons. We love to craft creative solutions for the real-life problems. Enhancing technical skills of the students is our main vision and we hope to continue this service for as long as we can. </p>
+					<p class="lead mr-2 ml-2" data-aos="fade-up" data-aos-delay="100">We are a student chapter of Computer Society of India, which is the first and largest body of computer professionals. We bridge the gap between students and industry. we fill the gap by sharing knowledge through seminars, workshops, and competitions. We love to craft creative solutions for the real-life problems. Enhancing technical skills of the students is our main vision and we hope to continue this service for as long as we can. </p>
 		  		</div>
 			</div>
 		</div>
@@ -77,7 +77,7 @@
 		<div class="row mb-5 justify-content-center">
 			<div class="col-md-10 text-center">
 				<h2 class="section-title mb-4" data-aos="fade-up" data-aos-delay="">What We do?</h2>
-				<p class="lead mr-2 ml-2" data-aos="fade-up" data-aos-delay="100">We Share Knowledge, Experience and Expertise.</p>
+				<p class="lead mr-2 ml-2" data-aos="fade-up" data-aos-delay="100">We share Knowledge, Experience and Expertise.</p>
 			</div>
 	</div>
 

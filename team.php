@@ -70,7 +70,7 @@
 
 		  <div class="col-md-3 mb-4">
         	<div class="card border-0 shadow">
-          		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
+          		<img src="images/tvrsir.jpg" class="card-img-top" alt="...">
           		<div class="card-body text-center">
             		<h5 class="card-title mb-0" style="font-size:18px;">Prof. Tushar V. Ratanpara</h5>
             		<div class="card-text text-black-50">Counsellor & Mentor<p><a href="#"><span class="fa fa-facebook-square"></span></a>
@@ -83,7 +83,7 @@
 
 		  <div class="col-md-3 mb-4">
         	<div class="card border-0 shadow">
-          		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
+          		<img src="images/17_amrita.jpg" class="card-img-top" alt="...">
           		<div class="card-body text-center">
             		<h5 class="card-title mb-0">Amrita Bhogayata</h5>
             		<div class="card-text text-black-50">President<p><a href="#"><span class="fa fa-facebook-square"></span></a>
@@ -109,7 +109,7 @@
 
 		  <div class="col-md-3 mb-4">
         	<div class="card border-0 shadow">
-          		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
+          		<img src="images/17_vishal.jpg" class="card-img-top" alt="...">
           		<div class="card-body text-center">
             		<h5 class="card-title mb-0">Vishal Kapadiya</h5>
             		<div class="card-text text-black-50">Secratary<p><a href="#"><span class="fa fa-facebook-square"></span></a>
@@ -122,7 +122,7 @@
 
 		  <div class="col-md-3 mb-4">
         	<div class="card border-0 shadow">
-          		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
+          		<img src="images/17_maitri.jpg" class="card-img-top" alt="...">
           		<div class="card-body text-center">
             		<h5 class="card-title mb-0">Maitri Joshi</h5>
             		<div class="card-text text-black-50">Tresurer<p><a href="#"><span class="fa fa-facebook-square"></span></a>
@@ -135,7 +135,7 @@
 
 		  <div class="col-md-3 mb-4">
         	<div class="card border-0 shadow">
-          		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
+          		<img src="images/17_anmol.jpg" class="card-img-top" alt="...">
           		<div class="card-body text-center">
             		<h5 class="card-title mb-0">Anmol Saxena</h5>
             		<div class="card-text text-black-50">Technical Head<p><a href="#"><span class="fa fa-facebook-square"></span></a>
@@ -148,7 +148,7 @@
 
 		  <div class="col-md-3 mb-4">
         	<div class="card border-0 shadow">
-          		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
+          		<img src="images/17_arshit.jpg" class="card-img-top" alt="...">
           		<div class="card-body text-center">
             		<h5 class="card-title mb-0">Arshit Vaghasiya</h5>
             		<div class="card-text text-black-50">Technical Associate<p><a href="#"><span class="fa fa-facebook-square"></span></a>
@@ -161,7 +161,7 @@
 
 		  <div class="col-md-3 mb-4">
         	<div class="card border-0 shadow">
-          		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
+          		<img src="images/17_tilak.jpg" class="card-img-top" alt="...">
           		<div class="card-body text-center">
             		<h5 class="card-title mb-0">Tilakraj Desai</h5>
             		<div class="card-text text-black-50">Technical Associate<p><a href="#"><span class="fa fa-facebook-square"></span></a>
@@ -174,7 +174,7 @@
 
 		  <div class="col-md-3 mb-4">
         	<div class="card border-0 shadow">
-          		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
+          		<img src="images/17_mohit.jpg" class="card-img-top" alt="...">
           		<div class="card-body text-center">
             		<h5 class="card-title mb-0">Mohit Mandlewala</h5>
             		<div class="card-text text-black-50">Designing Head<p><a href="#"><span class="fa fa-facebook-square"></span></a>
@@ -188,7 +188,7 @@
 
 		  <div class="col-md-3 mb-4">
         	<div class="card border-0 shadow">
-          		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
+          		<img src="images/17_rachit.jpg" class="card-img-top" alt="...">
           		<div class="card-body text-center">
             		<h5 class="card-title mb-0">Rachit Shah</h5>
             		<div class="card-text text-black-50">Associate<p><a href="#"><span class="fa fa-facebook-square"></span></a>
@@ -202,7 +202,7 @@
 
 		  <div class="col-md-3 mb-4">
         	<div class="card border-0 shadow">
-          		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
+          		<img src="images/17_rahi.jpg" class="card-img-top" alt="...">
           		<div class="card-body text-center">
             		<h5 class="card-title mb-0">Rahi Shah</h5>
             		<div class="card-text text-black-50">Associate<p><a href="#"><span class="fa fa-facebook-square"></span></a>
@@ -215,7 +215,7 @@
 
 		  <div class="col-md-3 mb-4">
         	<div class="card border-0 shadow">
-          		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
+          		<img src="images/18_vivek.jpg" class="card-img-top" alt="...">
           		<div class="card-body text-center">
             		<h5 class="card-title mb-0">Vivek Shah</h5>
             		<div class="card-text text-black-50">Commitee Member<p><a href="#"><span class="fa fa-facebook-square"></span></a>
@@ -228,7 +228,7 @@
 
 		  <div class="col-md-3 mb-4">
         	<div class="card border-0 shadow">
-          		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
+          		<img src="images/18_smit.jpg" class="card-img-top" alt="...">
           		<div class="card-body text-center">
             		<h5 class="card-title mb-0">Smit Savani</h5>
             		<div class="card-text text-black-50">Commitee Member<p><a href="#"><span class="fa fa-facebook-square"></span></a>
@@ -241,7 +241,7 @@
 
 		  <div class="col-md-3 mb-4">
         	<div class="card border-0 shadow">
-          		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
+          		<img src="images/18_mrugnayani.jpg" class="card-img-top" alt="...">
           		<div class="card-body text-center">
             		<h5 class="card-title mb-0">Mrugnayani Lankapati</h5>
             		<div class="card-text text-black-50">Commitee Member<p><a href="#"><span class="fa fa-facebook-square"></span></a>
@@ -254,7 +254,7 @@
 
 		  <div class="col-md-3 mb-4">
         	<div class="card border-0 shadow">
-          		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
+          		<img src="images/18_darshan.jpg" class="card-img-top" alt="...">
           		<div class="card-body text-center">
             		<h5 class="card-title mb-0">Darshan Beladiya</h5>
             		<div class="card-text text-black-50">Commitee Member<p><a href="#"><span class="fa fa-facebook-square"></span></a>
@@ -267,7 +267,7 @@
 				
 				<div class="col-md-3 mb-4">
         	<div class="card border-0 shadow">
-          		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
+          		<img src="images/18_trupti.jpg" class="card-img-top" alt="...">
           		<div class="card-body text-center">
             		<h5 class="card-title mb-0">Trupti Langalia</h5>
             		<div class="card-text text-black-50">Commitee Member<p><a href="#"><span class="fa fa-facebook-square"></span></a>
@@ -280,7 +280,7 @@
 
 		  <div class="col-md-3 mb-4">
         	<div class="card border-0 shadow">
-          		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
+          		<img src="images/18_kashyap.jpg" class="card-img-top" alt="...">
           		<div class="card-body text-center">
             		<h5 class="card-title mb-0">Kashyap Tamakuwala</h5>
             		<div class="card-text text-black-50">Commitee Member<p><a href="#"><span class="fa fa-facebook-square"></span></a>
@@ -293,7 +293,7 @@
 				
 				<div class="col-md-3 mb-4">
         	<div class="card border-0 shadow">
-          		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
+          		<img src="images/18_harsh.jpg" class="card-img-top" alt="...">
           		<div class="card-body text-center">
             		<h5 class="card-title mb-0">Harsh Patel</h5>
             		<div class="card-text text-black-50">Commitee Member<p><a href="#"><span class="fa fa-facebook-square"></span></a>
@@ -306,7 +306,7 @@
 
 		  <div class="col-md-3 mb-4">
         	<div class="card border-0 shadow">
-          		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
+          		<img src="images/18_dipali.jpg" class="card-img-top" alt="...">
           		<div class="card-body text-center">
             		<h5 class="card-title mb-0">Dipali Mishra</h5>
             		<div class="card-text text-black-50">Commitee Member<p><a href="#"><span class="fa fa-facebook-square"></span></a>
@@ -319,7 +319,7 @@
 
 		  <div class="col-md-3 mb-4">
         	<div class="card border-0 shadow">
-          		<img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
+          		<img src="images/18_dip.jpg" class="card-img-top" alt="...">
           		<div class="card-body text-center">
             		<h5 class="card-title mb-0">Dip Sidpara</h5>
             		<div class="card-text text-black-50">Commitee Member<p><a href="#"><span class="fa fa-facebook-square"></span></a>

@@ -44,7 +44,7 @@
 
           <div class="col-md-12 mt-lg-5 text-center">
             <h1 class="mb-4">Get In Touch</h1>
-            <p class="desc mb-4">Have a question about linear regression? <br>You build a amazing app and want to show it?<br>Or you just want to talk? We love discussing new ideas!</p>
+            <p class="desc mb-4">Have a question about linear regression? <br>Build a amazing app and want to show it?<br>Or you just want to talk? We love discussing new ideas!</p>
 
 			<a href="#" target="_blank" class="btn  btn-primary mr-2 mb-2 mt-3">Fill the form below</a>
 
