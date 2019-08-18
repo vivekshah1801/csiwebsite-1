@@ -243,7 +243,7 @@
         	<div class="card border-0 shadow">
           		<img src="images/18_mrugnayani.jpg" class="card-img-top" alt="...">
           		<div class="card-body text-center">
-            		<h5 class="card-title mb-0">Mrugnayani Lankapati</h5>
+            		<h5 class="card-title mb-0" style="font-size:1.2rem;">Mrugnayani Lankapati</h5>
             		<div class="card-text text-black-50">Commitee Member<p><a href="#"><span class="fa fa-facebook-square"></span></a>
 					<a href="#"><span class="fa fa-instagram"></span></a>
 					<a href="#"><span class="fa fa-linkedin-square"></span></a>
@@ -282,7 +282,7 @@
         	<div class="card border-0 shadow">
           		<img src="images/18_kashyap.jpg" class="card-img-top" alt="...">
           		<div class="card-body text-center">
-            		<h5 class="card-title mb-0">Kashyap Tamakuwala</h5>
+            		<h5 class="card-title mb-0" style="font-size:1.2rem;">Kashyap Tamakuwala</h5>
             		<div class="card-text text-black-50">Commitee Member<p><a href="#"><span class="fa fa-facebook-square"></span></a>
 					<a href="#"><span class="fa fa-instagram"></span></a>
 					<a href="#"><span class="fa fa-linkedin-square"></span></a>
