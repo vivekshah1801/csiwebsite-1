@@ -27,9 +27,8 @@
 	  </div>
 	  <div class="col-md-3">
 		<h2 class="footer-heading mb-4">Contact Us</h2>
-		<p>Darshan : +91 76985 29237</p>
-		<p>Vivek   : +91 88492 36413 </p>
-		<p>Trupti : +91 91064 73664 </p>
+		<p>Vivek Shah : <br>+91 88492 36413</p>
+		<p>Mrugnayani Lankapati : <br>+91 63559 36811</p>
 	  </div>
 	</div>
 

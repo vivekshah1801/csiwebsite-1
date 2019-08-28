@@ -14,11 +14,14 @@
 			<li class="nav-item">
 				<a class="nav-link" href="view_event.php">Event List</a>
 			</li>
-			<li class="nav-item">
+			<!--<li class="nav-item">
 				<a class="nav-link" href="add_blog.php">Add Blog</a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="view_blog.php">Blog List</a>
+			</li>-->
+			<li class="nav-item">
+				<a class="nav-link" href="../events.php">Go to Events Page</a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="admin_logout.php">Log Out</a>

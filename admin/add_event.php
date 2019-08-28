@@ -90,7 +90,8 @@
 		      <option>Workshop</option>
 		      <option>Competition</option>
 		      <option>Knowledge Sharing Session</option>
-			  <option>Felicific Event</option>
+			  	<option>Felicific Event</option>
+					<option>Expert Talk</option>
 		      <option>Non-tech Event</option>
 		      <option>Other</option>
 		    </select>
@@ -105,21 +106,21 @@
 		  <div class="form-group">
     		<label for="event_description">Event Description</label>
     		<textarea class="form-control" id="event_description" rows="4" name="description" required></textarea>
-			<small id="event_description_help" class="form-text text-muted">Provide 300 words short brief about the event.</small>
+			<small id="event_description_help" class="form-text text-muted">Provide 400 words short brief about the event.</small>
   		  </div>
 
 		  <label for="event_photo">Event Photo Upload</label>
 		  <div class="form-group custom-file">
 			<input type="file" class="custom-file-input" id="photo_link" name="photo_link" required>
 			<label class="custom-file-label" id="event_photo_help" for="event_photo">Choose file</label>
-			<small id="event_photo_help" class="form-text text-muted">Provide a high-resolution JPEG/JPG/PNG image only.</small>
+			<small id="event_photo_help" class="form-text text-muted">Provide a high-resolution JPEG/JPG/PNG image only.Preferably of the darker shade.</small>
 		  </div>
 
-		  <div class="form-group mt-5">
+		  <!--<div class="form-group mt-5">
 		    <label for="event_blog_link">Event Blog Link</label>
 		    <input type="text" class="form-control" id="event_blog_link" placeholder="Event Blog Link" name="blog_link">
 		    <small id="event_blog_link_help" class="form-text text-muted">Provide a valid resolved URL for the blog corrsponding to this event. Leave blank otherwise.</small>
-		  </div>
+		  </div>-->
 
 		  <button type="submit" class="btn btn-primary mt-2">Submit</button>
 		</form>

@@ -115,9 +115,21 @@
     </a>
 
   </div>
-
-
-
+  
+  
+  <div class="dropdown mt-3 container">
+     Change The Time Frame for the timeline:  
+    <button type="button" class="btn brn-info dropdown-toggle" data-toggle="dropdown">
+      Recent Events
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="events.php?year=2019">Recents</a>
+      <a class="dropdown-item" href="events.php?year=2018">2018-2019</a>
+      <a class="dropdown-item" href="events.php?year=2017">2017-2018</a>
+    </div>
+    
+  </div>
+  </div>
 
 
 
@@ -128,6 +140,16 @@
 
     include("db_connect.php");
     $sql = "SELECT * from Event_master ORDER BY date DESC LIMIT 10";
+    
+    if(isset($_GET["year"]))
+    {
+      if($_GET["year"]==2018)
+        $sql = "SELECT * from Event_master WHERE date BETWEEN '2018-07-01' AND '2019-06-30' ORDER BY date DESC";
+      if($_GET["year"]==2017)
+        $sql = "SELECT * from Event_master WHERE date BETWEEN '2017-07-01' AND '2018-06-30' ORDER BY date DESC";
+    }
+      
+      
     $e_list = $pdo->query($sql)->fetchAll();
     // now $event variable has list of events
 
