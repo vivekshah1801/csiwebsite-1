@@ -46,7 +46,7 @@
             <h1 class="mb-4">Get In Touch</h1>
             <p class="desc mb-4">Have a question about linear regression? <br>Build a amazing app and want to show it?<br>Or you just want to talk? We love discussing new ideas!</p>
 
-			<a href="#" target="_blank" class="btn  btn-primary mr-2 mb-2 mt-3">Fill the form below</a>
+			<a href="#contact_form" class="btn  btn-primary mr-2 mb-2 mt-3">Fill the form below</a>
 
           </div>
 
@@ -79,16 +79,16 @@
 		</div>
 
 		<!-- form starts -->
-		<div class="row justify-content-center">
+		<div class="row justify-content-center" id="contact_form">
 	  		<div class="col-md-8 mb-1">
-				<form action="msg.php" class="p-5 bg-white">
+				<form action="contact_db.php" method="post" class="p-5 bg-white">
 
 					<h2 class="h4 text-black mb-5">We always love to hear from you!</h2>
-
+					<input type="hidden" name="form_resp" value="1">
 					<div class="row form-group">
 						<div class="col-md-12 mb-3">
 						  <label class="text-black" for="name">Full Name</label>
-						  <input type="text" id="name" class="form-control">
+						  <input type="text" id="name" name="name" class="form-control">
 						</div>
 
 					</div>
@@ -96,21 +96,21 @@
 					<div class="row form-group">
 						<div class="col-md-12">
 						  <label class="text-black" for="email">Email</label>
-						  <input type="email" id="email" class="form-control">
+						  <input type="email" id="email" name="email" class="form-control">
 						</div>
 					</div>
 
 					<div class="row form-group">
 						<div class="col-md-12">
 						  <label class="text-black" for="subject">Subject</label>
-						  <input type="subject" id="subject" class="form-control">
+						  <input type="subject" id="subject" name="subject" class="form-control">
 						</div>
 					</div>
 
 					<div class="row form-group">
 						<div class="col-md-12">
 						  <label class="text-black" for="message">Message</label>
-						  <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Write your notes or questions here..."></textarea>
+						  <textarea name="message" id="message" cols="30" rows="7" name="msg" class="form-control" placeholder="Write your notes or questions here..."></textarea>
 						</div>
 					</div>
 

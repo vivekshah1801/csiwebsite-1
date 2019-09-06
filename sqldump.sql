@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 28, 2019 at 08:23 PM
+-- Generation Time: Sep 06, 2019 at 07:28 PM
 -- Server version: 10.3.15-MariaDB
 -- PHP Version: 7.1.30
 
@@ -50,6 +50,38 @@ INSERT INTO `event_master` (`id`, `name`, `type`, `date`, `description`, `photo_
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `tbl_contact_res`
+--
+
+CREATE TABLE `tbl_contact_res` (
+  `id` int(3) NOT NULL,
+  `name` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `subject` varchar(200) DEFAULT NULL,
+  `msg` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tbl_site_stats`
+--
+
+CREATE TABLE `tbl_site_stats` (
+  `id` int(2) NOT NULL DEFAULT 0,
+  `visits` int(10) NOT NULL DEFAULT 7
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tbl_site_stats`
+--
+
+INSERT INTO `tbl_site_stats` (`id`, `visits`) VALUES
+(0, 35);
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `user_master`
 --
 
@@ -80,6 +112,18 @@ ALTER TABLE `event_master`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `tbl_contact_res`
+--
+ALTER TABLE `tbl_contact_res`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `tbl_site_stats`
+--
+ALTER TABLE `tbl_site_stats`
+  ADD UNIQUE KEY `id` (`id`);
+
+--
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -88,6 +132,12 @@ ALTER TABLE `event_master`
 --
 ALTER TABLE `event_master`
   MODIFY `id` int(6) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
+--
+-- AUTO_INCREMENT for table `tbl_contact_res`
+--
+ALTER TABLE `tbl_contact_res`
+  MODIFY `id` int(3) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

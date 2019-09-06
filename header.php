@@ -32,8 +32,7 @@
 
 			<li class="social"><a class="nav-link" target="_blank" href="https://www.facebook.com/Computer-Society-of-India-DDU-Student-Branch-328507823907859/"><span class="icon-facebook"></span></a></li>
 			<li class="social"><a class="nav-link" target="_blank" href="https://www.instagram.com/csi_ddu/"><span class="icon-instagram"></span></a></li>
-			<li class="social"><a class="nav-link" target="_blank" href="https://www.linkedin.com/company/computer-society-of-india" ><span class="icon-linkedin"></span></a></li>
-
+			
 			<!-- extra links
 			<li class="has-children">
 			  <a href="#about-section" class="nav-link">About Us</a>
