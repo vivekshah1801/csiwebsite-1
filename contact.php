@@ -26,10 +26,48 @@
 
   <link rel="stylesheet" href="css/style.css">
 
+
+	
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	
+	<?php
+		if(isset($_POST["form_resp"]))
+		{
+				include("db_connect.php");
+				$sql = "INSERT INTO tbl_contact_res (name,email,subject,msg) VALUES (?,?,?,?)";
+			$stmt= $pdo->prepare($sql);
+			$stmt->execute([$_POST["name"], $_POST["email"],$_POST["subject"],$_POST["msg"] ]);
+							
+			function sanitize_my_email($field) 
+			{
+				$field = filter_var($field, FILTER_SANITIZE_EMAIL);
+				if (filter_var($field, FILTER_VALIDATE_EMAIL)) {
+					return true;
+				} else {
+					return false;
+				}
+			}
+			
+			$to_email = $_POST["email"];
+			$subject = 'New CSI Web Contact form Response';
+			$message = 'Name : ' . $_POST["name"] . '\nEmail : ' . $_POST["email"] . '\nSubject : ' . $_POST["subject"] . '\nMessage : ' . $_POST["msg"] . "\n\nRESPONSE OVER\nGENERATED AUTOMATICALLY BY WEB FORM AT CSI DDU WEBSITE.\n DO NOT REPLY TO THIS." ;
+			
+			//check if the email address is invalid $secure_check
+			$secure_check = sanitize_my_email($to_email);
+			if ($secure_check == true)
+			{
+				
+				//mail($to_email, $subject, $message, $headers);
+				echo '<script>
+					swal("Mail Sent", "We will get back to you soon!", "success");
+				</script>';
+			}
+			$pdo=null;
+		}
+	?>
 
   
 
@@ -81,7 +119,7 @@
 		<!-- form starts -->
 		<div class="row justify-content-center" id="contact_form">
 	  		<div class="col-md-8 mb-1">
-				<form action="contact_db.php" method="post" class="p-5 bg-white">
+				<form action="contact.php" method="post" class="p-5 bg-white">
 
 					<h2 class="h4 text-black mb-5">We always love to hear from you!</h2>
 					<input type="hidden" name="form_resp" value="1">
@@ -110,7 +148,7 @@
 					<div class="row form-group">
 						<div class="col-md-12">
 						  <label class="text-black" for="message">Message</label>
-						  <textarea name="message" id="message" cols="30" rows="7" name="msg" class="form-control" placeholder="Write your notes or questions here..."></textarea>
+						  <textarea id="message" cols="30" rows="7" name="msg" class="form-control" placeholder="Write your notes or questions here..."></textarea>
 						</div>
 					</div>
 
@@ -123,8 +161,8 @@
 	  		</div>
 		</div>
 	</section>
-
-    <?php include("footer.php"); ?>
+	
+  <?php include("footer.php"); ?>
 
   </div> <!-- .site-wrap -->
 
@@ -139,7 +177,8 @@
   <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/jquery.sticky.js"></script>
   <script src="js/isotope.pkgd.min.js"></script>
-
+	
+	
 
   <script src="js/main.js"></script>
 
