@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 06, 2019 at 07:28 PM
+-- Generation Time: Sep 20, 2019 at 07:49 PM
 -- Server version: 10.3.15-MariaDB
 -- PHP Version: 7.1.30
 
@@ -61,6 +61,33 @@ CREATE TABLE `tbl_contact_res` (
   `msg` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Dumping data for table `tbl_contact_res`
+--
+
+INSERT INTO `tbl_contact_res` (`id`, `name`, `email`, `subject`, `msg`) VALUES
+(1, 'viek', 'viek!@djf.cosdn', 'nzdhfsu', 'chsuigf'),
+(2, 'vivek', 'vievk@gmail.com', 'hello', 'Hellojbag'),
+(3, 'vive', 'dj@fan.com', 'shgfhg', 'vnsjkdgfwh'),
+(4, 'vive', 'dj@fan.com', 'shgfhg', 'vnsjkdgfwh'),
+(5, 'vive', 'dj@fan.com', 'shgfhg', 'vnsjkdgfwh'),
+(6, 'vie', 'dfha@sdh.com', 'vskdf', 'bskdgf'),
+(7, 'vie', 'dfha@sdh.com', 'vskdf', 'bskdgf'),
+(8, 'vie', 'dfha@sdh.com', 'vskdf', 'bskdgf'),
+(9, 'vie', 'dfha@sdh.com', 'vskdf', 'bskdgf'),
+(10, 'vivek', 'adjfha@gmail.com', 'sdhajkd', 'sdhfkad'),
+(11, 'vivek', 'adjfha@gmail.com', 'sdhajkd', 'sdhfkad'),
+(12, 'vivek', 'adjfha@gmail.com', 'sdhajkd', 'sdhfkad'),
+(13, 'vivek', 'adjfha@gmail.com', 'sdhajkd', 'sdhfkad'),
+(14, 'vivek', 'adjfha@gmail.com', 'sdhajkd', 'sdhfkad'),
+(15, 'viw', 'viek!@djf.cosdn', 'ahdf', 'fajkgd'),
+(16, 'viw', 'viek!@djf.cosdn', 'ahdf', 'fajkgd'),
+(17, 'viw', 'viek!@djf.cosdn', 'ahdf', 'fajkgd'),
+(18, 'viw', 'viek!@djf.cosdn', 'ahdf', 'fajkgd'),
+(19, 'vivek', 'viek!@djf.cosdn', 'hello', 'hello '),
+(20, '', '', '', ''),
+(21, 'Vivek', 'sciencevivek2@yahoo.com', 'vivek', 'jfagghf');
+
 -- --------------------------------------------------------
 
 --
@@ -77,7 +104,7 @@ CREATE TABLE `tbl_site_stats` (
 --
 
 INSERT INTO `tbl_site_stats` (`id`, `visits`) VALUES
-(0, 35);
+(0, 102);
 
 -- --------------------------------------------------------
 
@@ -137,7 +164,7 @@ ALTER TABLE `event_master`
 -- AUTO_INCREMENT for table `tbl_contact_res`
 --
 ALTER TABLE `tbl_contact_res`
-  MODIFY `id` int(3) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
